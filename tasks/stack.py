@@ -24,3 +24,10 @@ def bootstrap(c):
     print("Bootstrapping CDK environment...")
     c.run("cdk bootstrap")
 
+@task
+def delete(c):
+    """Deletes the CDK stack and cleans up AWS resources."""
+    print("Deleting CDK stack...")
+    c.run("cdk destroy --force")
+
+
