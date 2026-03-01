@@ -55,8 +55,6 @@ def update(c, name=None, upgrade=False, package_name=None):
 
     for req_name in ['dev']:
         _update_requirement(c, req_name, upgrade, package_name)
-
-    for req_name in ['dev']:
     
 
 

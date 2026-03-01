@@ -3,3 +3,5 @@ pyyaml
 pip-tools
 rich
 pydantic == 2.12.5
+aws-cdk-lib == 2.240.0
+constructs >= 10.0.0, < 11.0.0

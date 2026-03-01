@@ -1,3 +1,14 @@
 .agy/*
 .env
 .venv
+
+#cdk assests
+cdk.out
+cdk.context.json
+cdk.staging
+
+#python
+__pycache__
+**/__pycache__/
+
+
