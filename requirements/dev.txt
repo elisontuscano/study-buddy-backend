@@ -1,0 +1,21 @@
+annotated-types==0.7.0
+build==1.2.2.post1
+click==8.1.8
+invoke==2.2.1
+markdown-it-py==4.0.0
+mdurl==0.1.2
+packaging==26.0
+pip-tools==7.5.2
+pydantic==2.12.5
+pydantic-core==2.41.5
+pygments==2.19.2
+pyproject-hooks==1.2.0
+pyyaml==6.0.3
+rich==14.3.3
+typing-extensions==4.15.0
+typing-inspection==0.4.2
+wheel==0.45.1
+
+# The following packages are considered to be unsafe in a requirements file:
+# pip
+# setuptools

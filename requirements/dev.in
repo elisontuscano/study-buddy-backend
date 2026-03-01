@@ -1,0 +1,5 @@
+invoke
+pyyaml
+pip-tools
+rich
+pydantic == 2.12.5
