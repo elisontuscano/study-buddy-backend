@@ -6,6 +6,7 @@
 cdk.out
 cdk.context.json
 cdk.staging
+build
 
 #python
 __pycache__

@@ -1,6 +1,7 @@
 from invoke import task
+import tasks.build
 
-@task
+@task(pre=[tasks.build.package])
 def synth(c):
     """Synthesizes the CDK stack to generate CloudFormation templates."""
     print("Synthesizing CDK stack...")
@@ -12,7 +13,7 @@ def diff(c):
     print("Running CDK diff...")
     c.run("cdk diff")
 
-@task
+@task(pre=[tasks.build.package])
 def deploy(c):
     """Deploys the CDK stack to AWS."""
     print("Deploying CDK stack...")
